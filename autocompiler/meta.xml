@@ -1,0 +1,9 @@
+<meta>
+    <script src="compiler.lua" type="server" />
+    <aclrequest>
+		<right name="function.startResource" access="true" />
+		<right name="function.refreshResources" access="true" />
+		<right name="function.fetchRemote" access="true" />
+		<right name="general.ModifyOtherObjects" access="true" />
+	</aclrequest>
+</meta>
