@@ -113,11 +113,3 @@ local function prepareResource(res)
     end
 end
 addEventHandler("onResourcePreStart", root, prepareResource)
-
-addCommandHandler("cuz", function(player)
-    if player then
-        outputDebugString("has player", 4)
-    else
-        outputDebugString("dont player", 4)
-    end
-end)
