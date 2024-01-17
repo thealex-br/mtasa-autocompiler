@@ -1,4 +1,5 @@
 <meta>
+	<info name="autocompiler" author="thealex-br" type="script" version="1.0.3"/>
     <script src="compiler.lua" type="server" />
     <aclrequest>
 		<right name="function.startResource" access="true" />
